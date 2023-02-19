@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link href="./fonts.css" rel="stylesheet">
+	<link href="./index.css" rel="stylesheet">
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
@@ -76,7 +78,64 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+			<header class="header">
+				<div class="container header_container">
+					<svg class="header_logo">
+						<use href="/assets/icons/logo.svg#logo">You browser does not support svg</use>
+					</svg>
+
+					<nav class="header_nav nav">
+						<ul class="nav_list">
+							<li class="nav_item"><a href="#">Information</a></li>
+							<li class="nav_item"><a href="#">About us</a></li>
+							<li class="nav_item"><a href="#">Culture</a></li>
+						</ul>
+					</nav>
+
+					<form action="#" method="get" class="header_search-bar">
+						<button type="'submit" class="header_form-btn">
+							<svg class="header_search-loupe">
+								<use href="./assets/icons/search_loupe.svg#search-loupe">You browser does not support svg</use>
+							</svg>
+						</button>
+						<input required type="text" placeholder="Search" class="header_search_input">
+					</form>
+				</div>
+			</header>
+
+			<main id="main">
+				<section class="banner">
+					<div class="container banner_container">
+						<div class="banner_social-links">
+							<div class="banner_social-links-label">
+								Follow us
+							</div>
+							<a href="#">
+								<svg class="banner_social-links_instagram">
+									<use href="./assets/icons/instagram.svg#instagram">Your browser does not support svg</use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg class="banner_social-links_twitter">
+									<use href="./assets/icons/twitter.svg#twitter">Your browser does not support svg</use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg class="banner_social-links_facebook">
+									<use href="./assets/icons/facebook.svg#facebook">Your browser does not support svg</use>
+								</svg>
+							</a>
+						</div>
+						<div class="banner_title-foreword">explore the Nature Beauty</div>
+						<h1 class="banner_title"><span class="banner_title-highlight">Discover</span> Wonderful Indonesia</h1>
+						<div class="banner_scroll-signature">Scroll down <span class="arrow banner_scroll-signature_arrow"></span></div>
+					</div>
+				</section>
+			</main>
+
+			<footer>
+
+			</footer>
 		</div>
 </body>
 </html>
