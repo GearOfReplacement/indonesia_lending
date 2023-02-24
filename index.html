@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
 	<link href="./fonts.css" rel="stylesheet">
 	<link href="./index.css" rel="stylesheet">
@@ -92,7 +93,7 @@
 						</ul>
 					</nav>
 
-					<form action="#" method="get" class="header_search-bar">
+					<form action="#" name="search-bar" method="get" class="header_search-bar">
 						<button type="'submit" class="header_form-btn">
 							<svg class="header_search-loupe">
 								<use href="./assets/icons/search_loupe.svg#search-loupe">You browser does not support svg</use>
@@ -131,11 +132,134 @@
 						<div class="banner_scroll-signature">Scroll down <span class="arrow banner_scroll-signature_arrow"></span></div>
 					</div>
 				</section>
+
+				<section class="section_1">
+					<div class="container section_1_container">
+						<picture class="section_1_img">
+							<source srcset="./assets/section_1/img-2x.jpg" media="(min-resolution: 2dppx)">
+							<img src="./assets/section_1/img-1x.jpg" alt="mountains" loading="lazy">
+						</picture>
+
+						<div class="section_1_text-box">
+							<div class="section_1_title_foreword">EAST nUSA TENGGARA</div>
+							<h2 class="section_1_title">Have you enjoyed your holiday?</h2>
+							<div class="section_1_descr">You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</div>
+							<div class="section_1_link">read more <span class="arrow section_1_link_arrow"></span></div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section_2">
+					<div class="section_2_container container">
+						<div class="section_2_slider slider">
+							<div class="slider_slides">
+								<div class="slider_slide">
+									<div class="slider_slide_title-foreword">Bromo</div>
+									<h2 class="slider_slide_title">Steady your steps, we will climb together!</h2>
+									<div class="slider_slide_descr">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</div>
+									<div class="slider_slide_link">read more <span class="arrow slider_slide_link_arrow"></span></div>
+								</div>
+							</div>
+							<div class="slider_arrows">
+								<div class="slider_arrow slider_arrow__reversed"></div>
+								<div class="slider_arrow"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section_3">
+					<div class="section_3_container container">
+						<div class="section_3_text-box">
+							<div class="section_3_title_foreword">INDONESIAN CULTURE</div>
+							<h2 class="section_3_title">Our culture here is very friendly to people</h2>
+							<div class="section_3_descr">known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.</div>
+							<div class="section_3_link">read more <span class="arrow section_3_link_arrow"></span></div>
+						</div>
+
+						<picture class="section_3_img">
+							<source srcset="./assets/section_3/img-2x.jpg" media="(min-resolution: 2dppx)">
+							<img src="./assets/section_3/img-1x.jpg" alt="girls" loading="lazy">
+						</picture>
+					</div>
+					</div>
+				</section>
 			</main>
 
-			<footer>
+			<footer class="footer">
+				<div class="container footer_container">
+					<div class="footer_row_1">
+						<svg class="footer_logo">
+							<use href="/assets/icons/logo.svg#logo">You browser does not support svg</use>
+						</svg>
 
+						<div class="footer_row_1_wrapper">
+							<div class="footer_row_1_descr">Ready to explore?</div>
+							<div class="footer_row_1_link"><a href="#">Get started</a></div>
+						</div>
+					</div>
+
+					<div class="footer_row_2">
+						<form action="" method="post" class="footer_form">
+							<div class="footer_form_title">Let's go on vacation, Make your day</div>
+							<div class="footer_form_wrapper">
+								<input type="email" name="" id="" class="footer_form_input" required placeholder="Email address">
+								<button type="submit" class="footer_form_button"></button>
+							</div>
+						</form>
+
+						<div class="footer_row_2_links">
+							<ul class="footer_row_2_list">
+								<li class="footer_row_2_item"><a href="">Services</a></li>
+								<li class="footer_row_2_item"><a href="">Email Marketing</a></li>
+								<li class="footer_row_2_item"><a href="">Campaigns</a></li>
+								<li class="footer_row_2_item"><a href="">Branding</a></li>
+								<li class="footer_row_2_item"><a href="">Offline</a></li>
+							</ul>
+							<ul class="footer_row_2_list">
+								<li class="footer_row_2_item"><a href="">About</a></li>
+								<li class="footer_row_2_item"><a href="">Our Story</a></li>
+								<li class="footer_row_2_item"><a href="">Benefits</a></li>
+								<li class="footer_row_2_item"><a href="">Team</a></li>
+								<li class="footer_row_2_item"><a href="">Careers</a></li>
+							</ul>
+							<ul class="footer_row_2_list">
+								<li class="footer_row_2_item"><a href="">Help</a></li>
+								<li class="footer_row_2_item"><a href="">FAQs</a></li>
+								<li class="footer_row_2_item"><a href="">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer_row_3">
+						<ul class="footer_row_3_list">
+							<li class="footer_row_3_item">Terms & Conditions</li>
+							<li class="footer_row_3_item">Privacy Policy</li>
+						</ul>
+
+						<div class="footer_row_3_social-links">
+							<a href="#">
+								<svg class="footer_row_3_social-links_facebook">
+									<use href="./assets/icons/facebook.svg#facebook">Your browser does not support svg</use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg class="footer_row_3_social-links_twitter">
+									<use href="./assets/icons/twitter.svg#twitter">Your browser does not support svg</use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg class="footer_row_3_social-links_instagram">
+									<use href="./assets/icons/instagram.svg#instagram">Your browser does not support svg</use>
+								</svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="copyright">Copyright 2021 QWERy</div>
+				</div>
 			</footer>
+			<script src="./index.js" type="module"></script>
 		</div>
 </body>
 </html>
